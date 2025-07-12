@@ -45,3 +45,12 @@ The CD pipeline is triggered on every push (typically to the main branch) and in
 5. Deploy to AWS ECS
 
 make sure you have a Dockerfile and ecs-task-definition.json file in the root. The ecs-task-definition.json defines how your container runs on ECS.
+
+📽️ Video Walkthrough
+A complete walkthrough of this project is available here:
+https://drive.google.com/file/d/1UPOdyAoLja10GLlE4Zlx65i_t4D-sKkD/view?usp=drive_link
+
+This video demonstrates the full 3-phase deployment process:
+Provisioning AWS ECS infrastructure using Terraform
+Building and pushing the Medusa backend Docker image
+Setting up and triggering a GitHub Actions CD pipeline
