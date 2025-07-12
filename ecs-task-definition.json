@@ -4,7 +4,7 @@
   "requiresCompatibilities": ["FARGATE"],
   "cpu": "1024",
   "memory": "3072",
-  "executionRoleArn": "arn:aws:iam::976193228901:user/medusa",
+  "executionRoleArn": "arn:aws:iam::976193228901:role/ecsTaskExecutionRole",
   "containerDefinitions": [
     {
       "name": "medusa",
