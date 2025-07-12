@@ -31,3 +31,4 @@ EXPOSE 9000
 # Run DB migrations and start server
 CMD medusa migrations run && npm run start
 
+
