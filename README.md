@@ -33,6 +33,7 @@ terraform apply
 
 You can either:
 Clone Medusa.js and build a custom backend or use a Dockerfile. make sure Dockefile is in the root repository.
+There are two data bases. I set up postgress using Neon (a free open source db). add the connection string using an env variable. I ran a reddis docker file locally and configured both the url in .env file and medusa-config.js file.
 
 ### ✅ Phase 3: Set up GitHub Actions for CD
 
