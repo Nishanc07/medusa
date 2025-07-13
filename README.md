@@ -4,11 +4,11 @@ This project provisions the infrastructure and automates the deployment of the [
 
 ---
 
-## 🚀 Deployment in 3 Phases
+##  Deployment in 3 Phases
 
 ---
 
-### ✅ Phase 1: Provision AWS Infrastructure using Terraform
+###  Phase 1: Provision AWS Infrastructure using Terraform
 
 > This phase sets up the VPC, ECR, ECS cluster, Fargate service, IAM roles, security group and route table
 
@@ -29,13 +29,13 @@ terraform apply
 
 ---
 
-### ✅ Phase 2: Build Medusa Backend Locally
+###  Phase 2: Build Medusa Backend Locally
 
 You can either:
 Clone Medusa.js and build a custom backend or use a Dockerfile. make sure Dockefile is in the root repository.
 There are two data bases. I set up postgress using Neon (a free open source db). add the connection string using an env variable. I ran a reddis docker file locally and configured both the url in .env file and medusa-config.js file.
 
-### ✅ Phase 3: Set up GitHub Actions for CD
+###  Phase 3: Set up GitHub Actions for CD
 
 The CD pipeline is triggered on every push (typically to the main branch) and includes the following key phases:
 
